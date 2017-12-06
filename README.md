@@ -17,3 +17,10 @@
 ## 小提示
 
 由于网络原因，异步加载所耗费时间可能超过`jasmine`默认的超时时间，通过调整 `jasmine.DEFAULT_TIMEOUT_INTERVAL` 的值来解决。
+
+
+## 修改
+
+精简冗余代码，合并为一个函数并调用
+* isTruthy() 用于测试目标是否申明及非空
+* checkContent() 用于测试加载内容是否变化
